@@ -11,7 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @since : 2023-06-13 12:18
  */
 @SpringBootApplication
-@MapperScan("com.matrix.cola.*.*.mapper")
+@MapperScan("com.matrix.cola.**.mapper")
 public class ColaBootApplication {
     public static void main(String[] args) {
         SpringApplication.run(ColaBootApplication.class,args);

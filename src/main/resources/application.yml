@@ -31,7 +31,11 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #控制台打印sql
   mapper-locations: classpath*:com/matrix/cola/**/**/mapper/*Mapper.xml
 
-
+cola:
+  block-attack:
+    ignoreTables:
+      - abc
+      - def
 
 
 
